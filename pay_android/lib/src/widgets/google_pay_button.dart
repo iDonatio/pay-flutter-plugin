@@ -52,10 +52,10 @@ class RawGooglePayButton extends StatelessWidget {
   final PaymentConfiguration _paymentConfiguration;
 
   /// The default width for the Google Pay Button.
-  static const double minimumButtonWidth = 168;
+  static const double minimumButtonWidth = 250;
 
   /// The default height for the Google Pay Button.
-  static const double defaultButtonHeight = 48;
+  static const double defaultButtonHeight = 53;
 
   /// The constraints used to limit the size of the button.
   final BoxConstraints constraints;
