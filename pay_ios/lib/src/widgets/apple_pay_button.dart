@@ -53,7 +53,7 @@ extension on ApplePayButtonType {
   /// The minimum width for this button type according to
   /// [Apple Pay's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/)
   /// for the button.
-  double get minimumAssetWidth => this == ApplePayButtonType.plain ? 100 : 140;
+  double get minimumAssetWidth => this == ApplePayButtonType.plain ? 100 : 150;
 }
 
 /// A button widget that follows the Apple Pay button styles and design
@@ -73,10 +73,10 @@ extension on ApplePayButtonType {
 /// ```
 class RawApplePayButton extends StatelessWidget {
   /// The default width for the Apple Pay Button.
-  static const double minimumButtonWidth = 100;
+  static const double minimumButtonWidth = 150;
 
   /// The default height for the Apple Pay Button.
-  static const double minimumButtonHeight = 30;
+  static const double minimumButtonHeight = 35;
 
   /// The constraints used to limit the size of the button.
   final BoxConstraints constraints;
