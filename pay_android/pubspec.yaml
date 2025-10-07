@@ -33,7 +33,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  pay_platform_interface: ^2.0.0
+  pay_platform_interface:
+    path: ../pay_platform_interface
 
 
 dev_dependencies:
