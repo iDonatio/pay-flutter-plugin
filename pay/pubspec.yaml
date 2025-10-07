@@ -34,9 +34,12 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  pay_android: ^3.1.1
-  pay_ios: ^1.1.0
-  pay_platform_interface: ^2.0.0
+  pay_android:
+    path: ../pay_android
+  pay_ios:
+    path: ../pay_ios
+  pay_platform_interface:
+    path: ../pay_platform_interface
   meta: ^1.10.0
 
 dev_dependencies:
